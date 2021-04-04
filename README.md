@@ -3,11 +3,11 @@ creating the image from the latex for chemical strucutures
 
 
 modules used  in code
-import shutil
-import os
-from pdflatex import PDFLaTeX
-from pdf2image import convert_from_path
-from PIL import Image
+shutil,
+os,
+pdflatex,
+pdf2image,
+PIL,
 save_images-- function will take list of images_names,pdfpath,images_destination_path as arguments
               it will convert the pdf to images and then it will crop the structures from the images and 
               it will save the image with the name specified in the images_names list according to the number
